@@ -33,6 +33,7 @@
         $html = Loader::helper('html');      
         $this->addHeaderItem($html->css("{$blockURL}/media/css/demo_page.css"));
         $this->addHeaderItem($html->css("{$blockURL}/media/css/demo_table.css"));  
+        $this->addHeaderItem($html->css("{$blockURL}/media/css/TableTools.css"));  
         $this->addHeaderItem($html->javascript("{$blockURL}/media/js/jquery.dataTables.js"));
         $this->addHeaderItem($html->javascript("{$blockURL}/media/js/ZeroClipboard.js"));
         $this->addHeaderItem($html->javascript("{$blockURL}/media/js/TableTools.js"));
