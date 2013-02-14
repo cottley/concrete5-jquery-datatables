@@ -34,6 +34,8 @@
         $this->addHeaderItem($html->css("{$blockURL}/media/css/demo_page.css"));
         $this->addHeaderItem($html->css("{$blockURL}/media/css/demo_table.css"));  
         $this->addHeaderItem($html->javascript("{$blockURL}/media/js/jquery.dataTables.js"));
+        $this->addHeaderItem($html->javascript("{$blockURL}/media/js/ZeroClipboard.js"));
+        $this->addHeaderItem($html->javascript("{$blockURL}/media/js/TableTools.js"));
       }
       $this->set('isEditMode', $pg->isEditMode());
 		}
